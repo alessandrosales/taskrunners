@@ -26,6 +26,8 @@ O objetivo desse projeto é mostrar de forma objetiva o que são e como trabalha
 
 ## 2. Configurando o ambiente e conhecendo alguns dos Task Runners mais utilizados
 
+### Configurando o ambiente
+
 Instalação os módulos globais de gulp e grunt
 
 ```bash
@@ -53,10 +55,10 @@ npm install gulp-pug gulp-sass gulp-uglify gulp-concat --save-dev
 Instalação de plugins do grunt
 
 ```bash
-npm install grunt-contrib-pug grunt-sass gulp-contrib-uglify --save-dev
+npm install grunt-contrib-pug grunt-sass grunt-contrib-uglify --save-dev
 ```
 
-Task Runners mais utilizados
+### Task Runners mais utilizados
 
 * Gulp
 * NPM
