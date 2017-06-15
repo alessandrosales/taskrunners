@@ -10,11 +10,11 @@ O objetivo desse projeto é mostrar de forma objetiva o que são e como trabalha
 
 ### Tópicos
 
-1. Porque utilizar Task Runners
+1. Por que utilizar Task Runners?
 2. Configurando o ambiente e conhecendo alguns dos Task Runners mais utilizados
 3. Testando tasks com Grunt e Gulp
 
-## 1. Porque utilizar Task Runners
+## 1. Porque utilizar Task Runners?
 
 * Automatização de atividades repetitivas
 * Ganho de produtividade
@@ -24,7 +24,14 @@ O objetivo desse projeto é mostrar de forma objetiva o que são e como trabalha
 * Deploy automatizado
 * E muito mais...
 
-## 2. Configurando o ambiente e conhecendo alguns dos Task Runners mais utilizados
+## 2. Conhecendo alguns dos Task Runners mais utilizados e configurando o ambiente 
+
+### Task Runners mais utilizados
+
+* Gulp
+* NPM
+* Grunt
+* Broccoli
 
 ### Configurando o ambiente
 
@@ -58,11 +65,14 @@ Instalação de plugins do grunt
 npm install grunt-contrib-pug grunt-sass grunt-contrib-uglify --save-dev
 ```
 
-### Task Runners mais utilizados
+## 3. Testando tasks com Gulp e Grunt
 
-* Gulp
-* NPM
-* Grunt
-* Broccoli
+```bash
+cd app
+gulp
+```
 
-## 3. Testando tasks com Grunt e Gulp
+```bash
+cd app
+grunt
+```
