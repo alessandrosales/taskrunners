@@ -15,7 +15,7 @@ gulp.task('html', function(){
 gulp.task('css', function(){
 
     return gulp.src('./src/sass/style.sass')
-                .pipe(sass())
+                .pipe(sass({outputStyle: 'compressed'}))
                 .pipe(concat('style.min.css'))
                 .pipe(gulp.dest('./www-gulp/css/'));
 
