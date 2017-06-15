@@ -1,4 +1,5 @@
-# Pré-processando HTML, JavaScript e CSS com Task Runners
+# Task Runners 
+## Pré-processando HTML, JavaScript e CSS
 
 O objetivo desse projeto é mostrar de forma objetiva o que são e como trabalhar com Task Runners, que problemas eles resolvem e facilitar com uma pequena aplicação exemplo como dar os passos iniciais.
 
